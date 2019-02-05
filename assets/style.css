@@ -1,0 +1,30 @@
+ body{ 
+        font-size: 11px;
+        font-family: Helvetica Neue;
+    }
+	#cuerpo{
+	 
+	    padding:  8px;
+	    height: 200%; 
+	}
+	#Cabecera,#body{
+		 
+	    border: 2px solid lightgrey;
+	    padding:  8px;
+	   
+	    
+	    margin-right: -50px;
+		margin-left:-50px ;
+		
+	    margin-top: -50px;      
+	}
+	table#t01 tr:nth-child(even) {
+	    background-color: #eee;
+	}
+	table#t01 tr:nth-child(odd) {
+	   background-color: #fff;
+	}
+	table#t01 th {
+	    background-color: lightgrey;
+	    color: black;
+	}
